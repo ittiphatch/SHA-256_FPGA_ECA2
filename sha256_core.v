@@ -43,7 +43,6 @@ wire [31:0] ch  = (e_i & f_i)^(~e_i & g_i);
 wire [31:0] T1  = h_i + sigma1_e + ch + k + w;
 wire [31:0] T2  = sigma0_a + maj;
 
-
 assign a_o = T1+T2;
 assign b_o = a_i;
 assign c_o = b_i;
@@ -53,9 +52,6 @@ assign f_o = e_i;
 assign g_o = f_i;
 assign h_o = g_i;
 
-
-
-
-
+//git Upload 6-17-2018
 
 endmodule
